@@ -1,0 +1,72 @@
+body {
+    background-color: #000000;
+}
+/* Targetting the wrapper class and giving it a font family(Google font)and setting the margin.
+    These rules will cascade down to all other elements unless over-riden by other css rules */
+
+.wrapper {
+    font-family: 'Courier Prime', monospace;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+
+/* Targetting the social media icons at the footer of the pages to give it a color  */
+
+footer .fab {
+    color: #FFF;
+}
+
+
+/* Targetting the second carousel on the hompage to set the margin */
+
+.carousel1 {
+    margin: 50px;
+}
+
+
+/* Targetting the second carousel on the hompage to set the height */
+
+.carousel-inner1 {
+    height: 200px;
+}
+
+
+/* Targetting the second carousel on the hompage to set the text color to black */
+
+.carousel-caption {
+    color: rgb(7, 3, 3);
+    top: 50%;
+}
+
+
+/* Targetting the first carousel on the hompage to set the height and width */
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 45px;
+    width: 45px;
+    color: black;
+}
+
+/* Targeting the div that outputs messages on form submission and giving it a unique color and style */
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+
+/* Targeting the div that outputs messages on form submission and giving it a unique color and style */
+.success {
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
+
